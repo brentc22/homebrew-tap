@@ -14,8 +14,10 @@ class Catchbox < Formula
   end
 
   test do
-    # The demo inbox is self-contained, so the test never reaches the network.
+    # Both entry points exist, and each one names itself in its own help — a hint that
+    # points at the other command is the kind of papercut nobody reports.
+    assert_match "catchbox boxes", shell_output("#{bin}/catchbox help")
+    assert_match "testmail boxes", shell_output("#{bin}/testmail help")
     assert_match "disposable inboxes", shell_output("#{bin}/catchbox help")
-    assert_match "catchbox boxes", shell_output("#{bin}/testmail help")
   end
 end
