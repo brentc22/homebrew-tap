@@ -3,15 +3,13 @@
 Homebrew formulae and casks for the tools I build.
 
 ```sh
-brew tap brentc22/tap
-brew trust brentc22/tap
 brew install brentc22/tap/catchbox          # the command line
 brew install --cask brentc22/tap/catchbox   # the Mac app
 brew install --cask brentc22/tap/glint      # screenshots that blur your secrets
 brew install --cask brentc22/tap/portside   # your dev servers in the menu bar
 ```
 
-Current Homebrew no longer taps a third-party repository on its own, and refuses to load from one you have not trusted, hence the first two lines. You only run them once.
+That is the whole setup — `brew` taps this repository for you the first time you name it.
 
 ## What's in here
 
@@ -24,8 +22,6 @@ Current Homebrew no longer taps a third-party repository on its own, and refuses
 [**Stash**](https://github.com/brentc22/stash), the menu bar hider for macOS 27, lives in a tap of its own:
 
 ```sh
-brew tap brentc22/stash
-brew trust brentc22/stash
 brew install --cask brentc22/stash/stash
 ```
 
