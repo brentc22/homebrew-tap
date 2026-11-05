@@ -1,6 +1,6 @@
 cask "catchbox" do
-  version "1.5.1"
-  sha256 "1b5e0fcf47d54dae311ba401ccdda0ffd260e6baffccb20a78a79b2804c28aba"
+  version "1.6.0"
+  sha256 "1368dbddbc0c7db3d938a5dbfed81f0459ae669879985fe90c59b8aae75ef6b0"
 
   url "https://github.com/brentc22/catchbox/releases/download/v#{version}/Catchbox-#{version}.zip"
   name "catchbox"
