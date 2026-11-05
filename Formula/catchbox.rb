@@ -1,8 +1,8 @@
 class Catchbox < Formula
   desc "Disposable inboxes for developers, with the code and the action link pulled out"
   homepage "https://github.com/brentc22/catchbox"
-  url "https://github.com/brentc22/catchbox/archive/refs/tags/v1.6.0.tar.gz"
-  sha256 "7b023b81d0f21f06461955737946fde19f2c5243db478a6d339326c9182be8da"
+  url "https://github.com/brentc22/catchbox/archive/refs/tags/v1.6.1.tar.gz"
+  sha256 "89df58858681e993e7824cb1854a012c845c6f11385f58d88680b923d849f21e"
   license "MIT"
   head "https://github.com/brentc22/catchbox.git", branch: "main"
 
